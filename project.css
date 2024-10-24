@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    font-family: 'Castoro', serif; 
+    background: #ddeff0;;
+}
+
+
+@media (max-width: 1440px){
+    .navbar{
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        left: 970px;
+        border-radius: 50px;
+        background-color: #3b757f;
+        top: 20px;
+      }
+      .navbar ul{
+        list-style-type: none;
+        display: inline-flex;
+      }
+      .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 0 10px;
+        margin-left: 0px;
+      }
+
+}
+
+
+@media(max-width: 768px){
+    /* Styles for iPad */
+    .navbar{
+        width: auto;
+        height: 50px;
+        position: absolute;
+        left: 470px;
+        border-radius: 50px;
+        background-color: #3b757f;
+        top: 20px;
+      }
+      .navbar ul{
+        list-style-type: none;
+        display: inline-flex;
+      }
+      .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 0 10px;
+        margin-left: 0px;
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 390px){
+    /* Styles for iPhone 12 Pro */
+    .navbar{
+        width:auto;
+        background-color: transparent;
+        height: auto;
+        top: 0;
+        left: 10px;
+        text-align: left;
+        position: absolute;
+        z-index: 6;
+        border-radius: 0;
+      }
+     
+      .navbar ul{
+        list-style-type: none;
+        display: inline-flex;
+      }
+      .navbar ul li a{
+       
+        text-decoration: none;
+        color:#438e96;
+        font-size: 20px;
+        padding: 0 10px;
+        margin-left: 0px;
+        font-family: Kreon;
+      }
+}
+
+
