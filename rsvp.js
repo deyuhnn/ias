@@ -7,11 +7,8 @@ function preventSpaces(input) {
 
 function handleSubmit(event) {
 event.preventDefault(); 
-var formModal = new bootstrap.Modal(document.getElementById('formModal'));
 var thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
 
-formModal.hide();
 thankYouModal.show();
-
 event.target.reset();
 }
